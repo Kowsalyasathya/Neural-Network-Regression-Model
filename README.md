@@ -92,10 +92,13 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
 
 ![data-info-dl](https://github.com/user-attachments/assets/b8bb69d8-ea10-44f2-8e1b-3115c10b7ce1)
 
+
+
 ## OUTPUT
 
 
 ### Training Loss Vs Iteration Plot
+
 
 ![image](https://github.com/user-attachments/assets/6629cff9-aa76-4c56-a367-83c810186352)
 
@@ -107,5 +110,6 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
 ![image](https://github.com/user-attachments/assets/ef4ae5eb-b672-48f9-989f-b217209e40fe)
 
 ## RESULT
+
 
 The neural network regression model successfully learns the mapping between input and output, reducing the loss over training epochs. The model demonstrated strong predictive performance on unseen data, with a low error rate.
