@@ -44,9 +44,11 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
+
 ### Name: Kowsalya M
 ### Register Number: 212222230069
-```python
+
+```
 class NeuralNet(nn.Module):
     def __init__(self):
         super().__init__()
@@ -78,7 +80,6 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     ai_brain.history['loss'].append(loss.item())
     if epochs%200==0:
       print(f'Epoch [{epoch}/{epochs}], Loss:{loss.item():.6f}')
-
 
 ```
 ## Dataset Information
