@@ -2,18 +2,22 @@
 
 ## AIM
 
+
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
+
 
 Developing a neural network regression model involves designing a feedforward network with fully connected layers to predict continuous values. The model is trained using a loss function like Mean Squared Error (MSE)
 and optimized with algorithms like RMSprop or Adam. 
 
 ## Neural Network Model
 
+
 ![modell-dl](https://github.com/user-attachments/assets/6493433a-6e70-4e13-ae7f-6eb931b7309c)
 
 ## DESIGN STEPS
+
 
 ### STEP 1:
 
@@ -42,6 +46,7 @@ Plot the performance plot
 ### STEP 7:
 
 Evaluate the model with the testing data.
+
 
 ## PROGRAM
 
@@ -82,13 +87,16 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
       print(f'Epoch [{epoch}/{epochs}], Loss:{loss.item():.6f}')
 
 ```
+
 ## Dataset Information
 
 ![data-info-dl](https://github.com/user-attachments/assets/b8bb69d8-ea10-44f2-8e1b-3115c10b7ce1)
 
 ## OUTPUT
 
+
 ### Training Loss Vs Iteration Plot
+
 ![image](https://github.com/user-attachments/assets/6629cff9-aa76-4c56-a367-83c810186352)
 
 ### New Sample Data Prediction
