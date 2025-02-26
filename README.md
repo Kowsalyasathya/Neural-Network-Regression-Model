@@ -89,9 +89,7 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
-
 ![image](https://github.com/user-attachments/assets/6629cff9-aa76-4c56-a367-83c810186352)
-
 
 ### New Sample Data Prediction
 
