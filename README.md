@@ -6,6 +6,9 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
+Developing a neural network regression model involves designing a feedforward network with fully connected layers to predict continuous values. The model is trained using a loss function like Mean Squared Error (MSE)
+and optimized with algorithms like RMSprop or Adam. 
+
 ## Neural Network Model
 
 ![modell-dl](https://github.com/user-attachments/assets/6493433a-6e70-4e13-ae7f-6eb931b7309c)
@@ -98,4 +101,4 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
 
 ## RESULT
 
-Include your result here
+The neural network regression model successfully learns the mapping between input and output, reducing the loss over training epochs. The model demonstrated strong predictive performance on unseen data, with a low error rate.
