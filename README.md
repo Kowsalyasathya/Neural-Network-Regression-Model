@@ -87,10 +87,10 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
       print(f'Epoch [{epoch}/{epochs}], Loss:{loss.item():.6f}')
 
 ```
-
 ## Dataset Information
 
 ![data-info-dl](https://github.com/user-attachments/assets/b8bb69d8-ea10-44f2-8e1b-3115c10b7ce1)
+
 
 
 
