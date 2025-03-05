@@ -121,6 +121,12 @@ plt.ylabel("Loss")
 plt.title("Loss during Training")
 plt.show()
 
+
+X_n1_1 = torch.tensor([[3]], dtype=torch.float32)
+prediction = ai_brain(torch.tensor(scaler.transform(X_n1_1), dtype=torch.float32)).item()
+print(f'Prediction: {prediction}')
+     
+
 ```
 ## Dataset Information
 
