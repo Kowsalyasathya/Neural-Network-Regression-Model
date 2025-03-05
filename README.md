@@ -144,7 +144,7 @@ print(f'Prediction: {prediction}')
 
 ### New Sample Data Prediction
 
-![image](https://github.com/user-attachments/assets/26cd7604-5976-47b7-9438-a4143366344e)
+![image](https://github.com/user-attachments/assets/09e14e3c-ca3e-477f-b41d-692ee781980b)
 
 
 
