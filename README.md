@@ -105,7 +105,7 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     optimizer.step()
 
     ai_brain.history['loss'].append(loss.item())
-    if epochs%200==0:
+    if epoch%200==0:
       print(f'Epoch [{epoch}/{epochs}], Loss:{loss.item():.6f}')
 
 with torch.no_grad():
@@ -127,22 +127,20 @@ plt.show()
 ![data-info-dl](https://github.com/user-attachments/assets/b8bb69d8-ea10-44f2-8e1b-3115c10b7ce1)
 
 
-
-
 ## OUTPUT
 
 
 ### Training Loss Vs Iteration Plot
 
 
-![image](https://github.com/user-attachments/assets/6629cff9-aa76-4c56-a367-83c810186352)
+![image](https://github.com/user-attachments/assets/ea3767d4-b159-4232-a609-552e976a0fbe)
+
 
 ### New Sample Data Prediction
 
-![image](https://github.com/user-attachments/assets/dd7d644f-8c1d-46ea-b8be-fab0f7782a18)
+![image](https://github.com/user-attachments/assets/26cd7604-5976-47b7-9438-a4143366344e)
 
 
-![image](https://github.com/user-attachments/assets/ef4ae5eb-b672-48f9-989f-b217209e40fe)
 
 ## RESULT
 
