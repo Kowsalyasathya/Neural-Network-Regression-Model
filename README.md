@@ -79,9 +79,9 @@ y_test_tensor = torch.tensor(y_test, dtype=torch.float32).view(-1, 1)
 class NeuralNet(nn.Module):
     def __init__(self):
         super().__init__()
-        self.fc1=nn.Linear(1,4)
-        self.fc2=nn.Linear(4,8)
-        self.fc3=nn.Linear(8,1)
+        self.fc1=nn.Linear(1,10)
+        self.fc2=nn.Linear(10,18)
+        self.fc3=nn.Linear(18,1)
         self.relu=nn.ReLU()
         self.history={'loss':[]}
 
@@ -139,13 +139,13 @@ print(f'Prediction: {prediction}')
 ### Training Loss Vs Iteration Plot
 
 
-![image](https://github.com/user-attachments/assets/ea3767d4-b159-4232-a609-552e976a0fbe)
+![image](https://github.com/user-attachments/assets/54eff130-8d03-4ae7-8e1f-f21e9465fcab)
+
 
 
 ### New Sample Data Prediction
 
-![image](https://github.com/user-attachments/assets/09e14e3c-ca3e-477f-b41d-692ee781980b)
-
+![image](https://github.com/user-attachments/assets/d6d202d2-37d1-4d7f-9f91-312f20a9dc7e)
 
 
 ## RESULT
