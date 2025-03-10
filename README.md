@@ -14,7 +14,8 @@ and optimized with algorithms like RMSprop or Adam.
 ## Neural Network Model
 
 
-![modell-dl](https://github.com/user-attachments/assets/6493433a-6e70-4e13-ae7f-6eb931b7309c)
+![image](https://github.com/user-attachments/assets/aba5dc49-7078-4d84-84bd-0ced47c7c1e4)
+
 
 ## DESIGN STEPS
 
